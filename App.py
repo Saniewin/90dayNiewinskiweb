@@ -597,5 +597,3 @@ with nav_tabs[4]:
         *   **Form LARA/BPL Rev. 6/25**: Official monthly logs must be signed and archived in central HR.
         *   **EHR Routing Lock**: Claims involving LLP-rendered psychometrics (`96138`) are blocked from release until supervising LP co-signs note.
         """)
-        
-        la
