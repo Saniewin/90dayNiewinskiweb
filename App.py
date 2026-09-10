@@ -598,31 +598,4 @@ with nav_tabs[4]:
         *   **EHR Routing Lock**: Claims involving LLP-rendered psychometrics (`96138`) are blocked from release until supervising LP co-signs note.
         """)
         
-        lara_sample = pd.DataFrame({
-            "Clinician Name": ["LLP Clinician A", "LLP Clinician B", "TLLP Clinician C", "LLP Clinician D"],
-            "Clinic Location": ["Detroit", "Pontiac", "Southfield", "Eastpointe"],
-            "Supervision Logged (Hrs)": [4.5, 4.0, 2.5, 4.0],
-            "Form Rev 6/25 Status": ["Verified", "Verified", "Missing 1.5 Hrs", "Verified"],
-            "EHR Co-Signature Status": ["100% Signed", "100% Signed", "Locked / Pending", "100% Signed"]
-        })
-        st.dataframe(lara_sample, use_container_width=True)
-        
-    with col_qbp:
-        st.markdown("#### **CCBHC Quality Measures & QBP Benchmarks**")
-        st.markdown("""
-        *   **Time to Services (I-SERV)**: Days to initial eval and initial clinical service.
-        *   **Depression Remission at 6 Mo (DEP-REM-6)**: PHQ-9 score < 5 at 6 months.
-        *   **Suicide Risk Assessment (SRA-A / SRA-C)**: Adult and pediatric SRA completion rates.
-        """)
-        
-        qbp_sample = pd.DataFrame({
-            "Quality Measure": ["I-SERV: Routine Access", "I-SERV: Urgent Access", "DEP-REM-6", "SRA-A / SRA-C"],
-            "MDHHS Target Benchmark": ["14 Calendar Days", "1 Business Day", "≥ 22.5%", "100% Completion"],
-            "Current CNS Performance": ["11.2 Days", "0.8 Days", "26.4%", "98.2%"],
-            "QBP Pool Alignment": ["Compliant", "Compliant", "On Track for QBP", "Compliant"]
-        })
-        st.dataframe(qbp_sample, use_container_width=True)
-
-# Footer
-st.markdown("---")
-st.caption("CNS Healthcare Psychological Services Appraisal Web App • Grounded in 90-Day Appraisal Plan, CCBHC Demonstration Guidelines, and LARA Statutes")
+        la
